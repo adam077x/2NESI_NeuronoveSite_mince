@@ -2,6 +2,10 @@
 
 Jednoduchá webová aplikace pro detekci a počítání českých mincí pomocí Počítačového vidění (OpenCV) a Neuronové sítě (PyTorch).
 
+
+## Ukázka
+![preview](/python_app/galerie/demo1.png)
+
 ## Instalace
 
 1. Vytvořte virtuální prostředí (doporučeno):
@@ -62,6 +66,3 @@ Dataset z Kaggle se přes Kaggle API stahuje tak, že nejdřív vygeneruješ API
 - V terminálu ověř instalaci příkazem `kaggle --help`; pokud proběhla autentizace správně, příkaz proběhne bez chyby.
 - Pro dataset (např. `janstol/czech-coins`) použij:  
   - `kaggle datasets download -d janstol/czech-coins` – stáhne ZIP do aktuální složky; můžeš přidat `-p cesta/` pro cílovou složku a `--unzip` pro automatické rozbalení.
-
-## 3. Ukázka
-![preview](/python_app/galerie/demo1.png)
